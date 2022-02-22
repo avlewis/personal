@@ -1,0 +1,33 @@
+:root {
+
+    --black: #0a2540
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: var(--black);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container *>:nth-child(1):hover {
+    color: blue;
+    cursor:help;
+}
+
+.container *>:nth-child(2):hover {
+    color: red;
+    cursor:zoom-in;
+}
+
+ul {
+    list-style: none;
+    font-size: x-large;
+}
